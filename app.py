@@ -14,6 +14,7 @@ from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+from dotenv import load_dotenv
 
 REQUIRED_COLUMNS = ["company", "hr_name", "email", "position"]
 LOG_PATH = Path("logs/sent_log.csv")
@@ -313,6 +314,7 @@ def render_batch_tab(config: dict, template: str) -> None:
 
 
 def main() -> None:
+    load_dotenv(override=False)
     ensure_files()
     config = load_config()
     template = load_template()
