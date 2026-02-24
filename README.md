@@ -14,6 +14,7 @@ email-automation/
 ├── requirements.txt
 ├── README.md
 └── logs/
+    └── sent_log.csv
 ```
 
 ## Environment Variables (required for sending)
@@ -29,12 +30,12 @@ If these are missing, the UI refuses to send.
 
 - **Single Email tab**
   - Inputs: name, email, company, position, subject, resume upload/path
-  - Send one email
+  - Shows template preview before send
+  - Sends plain-text email
 - **Batch Email tab**
   - Upload CSV with columns: `company, hr_name, email, position`
   - Controls: min delay, max delay, daily max, dry run
-  - Start batch and view statuses
-- Duplicate prevention via `logs/sent_log.csv` for same-day sends
+  - Duplicate skip log in `logs/sent_log.csv`
 
 ## Run locally
 

@@ -1,9 +1,14 @@
-Dear {hr_name},
+Hi {{hr_name}},
 
-I am writing to apply for the {position} role at {company}.
-Please find my resume attached.
+I hope you’re doing well.
 
-Regards,
-{candidate_name}
-{candidate_phone}
-{candidate_email}
+I’m writing to express my strong interest in the Salesforce opportunity. I have 5+ years of experience in Salesforce development, with hands-on experience in Lightning Web Components (LWC), Apex, Sales Cloud, Service Cloud, Financial Services Cloud (FSC), CPQ, and integrations.
+
+I’ve worked on building and enhancing scalable Salesforce solutions, automation, and custom functionality in enterprise environments.
+
+Please let me know a convenient time for a brief discussion regarding this opportunity.
+
+Best regards,
+Saketh Reddy Chintala
++1 571 541 6433 | [sakethredd04@gmail.com](mailto:sakethredd04@gmail.com)
+LinkedIn: https://www.linkedin.com/in/saketh-ch-a478092b0/

@@ -1,6 +1,7 @@
 {
-  "candidate_name": "Your Name",
-  "candidate_phone": "+1-000-000-0000",
-  "candidate_email": "you@example.com",
-  "default_subject": "Application for {position} - {candidate_name}"
+  "candidate_name": "Saketh Reddy Chintala",
+  "candidate_phone": "+1 571 541 6433",
+  "candidate_email": "your_email@example.com",
+  "linkedin_url": "https://www.linkedin.com/in/your-profile/",
+  "default_subject": "Salesforce Talent - Saketh Resume"
 }
