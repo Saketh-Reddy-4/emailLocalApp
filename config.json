@@ -1,0 +1,6 @@
+{
+  "candidate_name": "Your Name",
+  "candidate_phone": "+1-000-000-0000",
+  "candidate_email": "you@example.com",
+  "default_subject": "Application for {position} - {candidate_name}"
+}
