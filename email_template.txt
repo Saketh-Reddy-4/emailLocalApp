@@ -1,0 +1,9 @@
+Dear {hr_name},
+
+I am writing to apply for the {position} role at {company}.
+Please find my resume attached.
+
+Regards,
+{candidate_name}
+{candidate_phone}
+{candidate_email}
