@@ -1,0 +1,13 @@
+Hi {{hr_name}},
+
+I am writing to express my strong interest in the Salesforce position. Below, I have included a brief overview of my qualifications:
+
+* Five years of experience in Salesforce development
+* Proficient in Lightning Web Components, Sales Cloud, Service Cloud, FSC, Apex triggers, CPQ, and integrations
+
+I would like to know when it would be convenient for you to have a discussion regarding this opportunity.
+
+Best,
+Saketh Reddy Chintala
++1 571 541 6433 || [sakethredd04@gmail.com](mailto:sakethredd04@gmail.com)
+https://www.linkedin.com/in/saketh-ch-a478092b0/
