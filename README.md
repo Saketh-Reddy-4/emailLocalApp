@@ -13,18 +13,39 @@ email-automation/
 ├── email_template.txt
 ├── requirements.txt
 ├── README.md
+├── .env.example
 └── logs/
     └── sent_log.csv
 ```
 
-## Environment Variables (required for sending)
+## Sender credentials (local `.env` or OS environment)
+
+The app reads sender credentials from either your shell environment or a local `.env` file.
+
+Supported keys:
+
+- `EMAIL_AUTOMATION_SENDER`
+- `EMAIL_AUTOMATION_APP_PASSWORD`
+
+Precedence behavior:
+
+- Existing OS environment variables win.
+- `.env` values are used only when OS environment variables are not already set.
+
+Create your local `.env` file from the example:
 
 ```bash
-export EMAIL_AUTOMATION_SENDER="your_email@gmail.com"
-export EMAIL_AUTOMATION_APP_PASSWORD="your_gmail_app_password"
+cp .env.example .env
 ```
 
-If these are missing, the UI refuses to send.
+Then edit `.env` and set your real values:
+
+```env
+EMAIL_AUTOMATION_SENDER=your_email@gmail.com
+EMAIL_AUTOMATION_APP_PASSWORD=your_gmail_app_password
+```
+
+> `.env` is gitignored to avoid committing secrets.
 
 ## UI Features
 
